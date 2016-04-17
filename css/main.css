@@ -1,0 +1,51 @@
+.contenedor-uno {
+  margin-top:100px;
+  height: auto;
+}
+
+.nav-main a{
+  color: green;
+}
+
+.nav-main .small-logo{
+
+  font-size: 22px;
+}
+
+.nav-logo{
+  position: relative;
+  top: 3px;
+  width: 27px;
+  height: 22px;
+  margin-left: 15px;
+}
+
+.section2{
+  height: 500px;
+}
+
+#pinguino {
+  height: 220px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.listStagLeft, .listStagRight{
+  height: auto;
+  display: none;
+}
+
+.line{
+  margin-left: auto;
+  margin-right: auto;
+  width: 10px;
+  background:black;
+  height: 1000px;
+  margin-top: -900px;
+  margin-bottom:-5px;
+}
+
+.parallax-container {
+    height: auto;
+  }

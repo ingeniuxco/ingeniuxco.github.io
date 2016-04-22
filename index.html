@@ -12,23 +12,25 @@
 </head>
 <body>
 
-  <div class="container">
-    <nav class="white z-depth-0 nav-main navbar-fixed">
+  <div class="container" id="rowNav">
+
+    <nav class="white z-depth-0 nav-main" id="nav">
       <div class="nav-wrapper">
         <a href="#" class="brand-logo small-logo">
           <img src="images/logoGorro.svg" class="nav-logo" alt=""> </img>
           <span class="nav-name-logo">Ingeniux</span>
         </a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="sass.html">Proyectos</a></li>
-          <li><a href="badges.html">Components</a></li>
-          <li><a href="collapsible.html">JavaScript</a></li>
+          <li><a href="#projects">Proyectos</a></li>
+          <li><a href="#section-widget">Widget</a></li>
+          <li><a href="http://ingeniuxco.wordpress.com/">Blog</a></li>
         </ul>
       </div>
     </nav>
+
   </div>
 
-  <div class="section white" style="position:relative;z-index:99999999;" id="header-uno">
+  <div class="section white scrollspy" id="header">
     <div class="contenedor-uno scrollspy" >
       <div class="section">
         <div class="row center">
@@ -42,16 +44,18 @@
     </div>
 
   </div>
-  <div class="section" style="padding-top:0;position:relative;z-index:999999999;">
+  <div class="section btn-git">
     <img src="images/sub.svg" alt="" width="100%"/>
     <div class="center">
-      <a id="boton-sticker" class="waves-effect btn-large white green-text text-darken-3" style="margin-top:-120px;"><i class="fa fa-github left"></i>Ver en Github</a>
+      <a href="http://github.com/ingeniuxco" id="boton-sticker" class="waves-effect btn-large white green-text text-darken-3">
+        <i class="fa fa-github left"></i>Ver en Github
+      </a>
     </div>
   </div>
 
-  <div class="parallax-container" id="parallax-uno" style="margin-top:-120px; margin-bottom:0; padding-bottom:0;">
+  <div class="parallax-container scrollspy" id="parallax-uno">
 
-    <div class="section container" style="margin-top: 140px; padding-bottom: 70px;">
+    <div class="section container">
       <div class="row">
         <div class="col m6">
           <img src="images/slogan1.png" width="100%" alt="" />
@@ -64,17 +68,16 @@
 
     <div class="parallax"><img src="images/parallax.svg"></div>
     <div class="" style="padding-bottom:0px;margin:-7px">
-      <img src="images/sub2.svg" class="responsive-img" width="100%" style=""/>
+      <img src="images/sub2.svg" class="responsive-img" width="100%"/>
     </div>
 
   </div>
 
-  <div class="section white" style="min-height: 700px;">
-
+  <div class="section white scrollspy" style="min-height: 400px;" id="projects">
 
     <div class="container">
       <div class="right" style="margin-top:-45px;">
-        <a class="btn-floating btn-large waves-effect waves-light lime darken-1"><i class="fa fa-chevron-down"></i></a>
+        <a href="#section-widget" class="btn-floating btn-large waves-effect waves-light lime darken-1"><i class="fa fa-chevron-down"></i></a>
       </div>
       <div class="row">
         <div class="col m3">
@@ -83,11 +86,15 @@
             <li class="listStagLeft">
               <blockquote style="border-color:green;">
                 <h4 class="green-text">Proyectos</h4>
-              </blockquote>
+              </blockquote><br>
             </li>
-            <li class="listStagLeft">
-              <h4><a href="#">List Item</a></h4>
-              <p>This is a description</p>
+            <li class="listStagLeft" >
+              <h4><a class="light-green-text" href="#section-widget">WI:DGET</a></h4>
+              <p>Revista digital</p>
+            </li>
+            <li class="listStagLeft" >
+              <h4><a class="light-green-text" href="http://stipelson.github.io/tour-it">Tour-it!</a></h4>
+              <p>Recorridos virtuales</p>
             </li>
           </ul>
 
@@ -95,32 +102,20 @@
         <div class="col m6 white">
           <div class="row center">
             <div class="hide-on-med-and-down" id="pinguino">
-              <div class="line center"></div>
+              <div class="line center" id="linea"></div>
               <img src="images/logopegatina.svg" alt=""/>
             </div>
           </div>
         </div>
         <div class="col m3 right">
 
-          <ul id="staggered-testTwo">
-            <li class="listStagRight">
-              <h4><a href="#">List Item</a></h4>
+          <ul id="staggered-testTwo"><br><br><br><br>
+            <li class="listStagRight right-align">
+              <h4><a class="light-green-text" href="#">List Item</a></h4>
               <p>This is a description</p>
             </li>
-            <li class="listStagRight">
-              <h4><a href="#">List Item</a></h4>
-              <p>This is a description</p>
-            </li>
-            <li class="listStagRight">
-              <h4><a href="#">List Item</a></h4>
-              <p>This is a description</p>
-            </li>
-            <li class="listStagRight">
-              <h4><a href="#">List Item</a></h4>
-              <p>This is a description</p>
-            </li>
-            <li class="listStagRight">
-              <h4><a href="#">List Item</a></h4>
+            <li class="listStagRight right-align">
+              <h4><a class="light-green-text" href="#">List Item</a></h4>
               <p>This is a description</p>
             </li>
           </ul>
@@ -133,36 +128,121 @@
 
   </div>
 
-  <div class="section grey lighten-4" style="min-height: 500px;">
+  <div class="section grey lighten-4 scrollspy" style="min-height: 500px;" id="section-widget">
+    <div class="container">
+      <div class="row">
+        <ul id="staggered-widget">
+          <li>
+            <blockquote style="border-color:green;">
+              <h4 class="green-text">WI:DGET</h4>
+            </blockquote>
+          </li>
+        </ul>
+
+        <div class="col l2 m4 s6 offset-l5 offset-m4 offset-s3">
+          <div class="slider" id="slider-widget">
+            <ul class="slides">
+              <li>
+                <img src="https://i2.wp.com/www.youblisher.com/files/publications/23/134993/200x300.jpg"> <!-- random image -->
+              </li>
+              <li>
+                <img src="https://i1.wp.com/www.youblisher.com/files/publications/35/204095/200x300.jpg"> <!-- random image -->
+              </li>
+              <li>
+                <img src="https://i1.wp.com/www.youblisher.com/files/publications/83/493434/200x300.jpg"> <!-- random image -->
+              </li>
+              <li>
+                <img src="https://i1.wp.com/www.youblisher.com/files/publications/151/900741/200x300.jpg"> <!-- random image -->
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+  <div class="section white">
+    <div class="container">
+      <div class="row">
+
+        <div class="col m6">
+          <div class="card-panel hoverable">
+            <ul>
+              <li>
+                <blockquote style="border-color:green;">
+                  <h4 class="green-text">Misión</h4>
+                </blockquote>
+              </li>
+              <li>
+                Promover la filosofía del Movimiento de Cultura Libre enfocándose en el Software Libre de forma que la comunidad universitaria lo apropie como una alternativa económica y funcional.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col m6">
+          <div class="card-panel hoverable">
+            <ul>
+              <li>
+                <blockquote style="border-color:green;">
+                  <h4 class="green-text">Visión</h4>
+                </blockquote>
+              </li>
+              <li>
+                Ser una comunidad generadora de conocimientos que ayude a la comunidad universitaria a beneficiarse de las libertades que ofrece el Movimiento de Cultura Libre, reconocidos a nivel regional por otras comunidades y grupos afines.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div><!-- /container -->
+
 
   </div>
 
-  <div class="section white" style="min-height: 500px;">
-
+  <!-- Boton para ir arriba-->
+  <div class="hide" id="btn-up-hide">
+    <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+      <a class="btn-floating btn-large lime darken-1" href="#header">
+        <i class="fa fa-chevron-up"></i>
+      </a>
+    </div>
   </div>
 
   <footer class="page-footer green" id="footer-uno">
     <div class="container">
       <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Footer Content</h5>
-          <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+        <div class="col l4 s12">
+          <p class="grey-text text-lighten-4">Este es un grupo conformado por estudiantes que pretenden promover la filosofía del movimiento de cultura libre enfocándose en los beneficios del uso del software distribuido bajo la misma ideología, mostrándolo como una alternativa económica y funcional al software privativo.</p>
         </div>
         <div class="col l4 offset-l2 s12">
-          <h5 class="white-text">Links</h5>
+          <h5 class="white-text">Recursos</h5>
           <ul>
-            <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-            <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-            <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-            <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+            <li><a class="grey-text text-lighten-3" href="https://ingeniuxco.wordpress.com">Blog</a></li>
+            <li><a class="grey-text text-lighten-3" href="http://stipelson.github.io/tour-it">Tour-it!</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!"></a></li>
+            <li><a class="grey-text text-lighten-3" href="#!"></a></li>
           </ul>
+        </div>
+        <div class="col l2 s12">
+          <h5>
+            <a href="https://www.facebook.com/ingeniuxco"><i class="fa fa-facebook fa-inverse" aria-hidden="true"></i></a>
+            <a href="https://www.twitter.com/ingeniuxco"><i class="fa fa-twitter fa-inverse" aria-hidden="true"></i></a>
+            <a href="https://www.github.com/ingeniuxco"><i class="fa fa-github fa-inverse" aria-hidden="true"></i></a>
+          </h5>
+          <p class="white-text">
+            ingeniux2016@googlegroups.com
+          </p>
         </div>
       </div>
     </div>
     <div class="footer-copyright">
       <div class="container">
-        © 2014 Copyright Text
-        <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+        © 2015 - 2016 Ingeniux
+        <a class="grey-text text-lighten-4 right" href="#!">License</a>
       </div>
     </div>
   </footer>
@@ -173,46 +253,11 @@
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
   <script type="text/javascript" src="js/velocity.min.js"></script>
   <script type="text/javascript" src="js/velocity.ui.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript" src="js/animations.js"></script>
 
   <!-- ScrollFire de materialize -->
-  <script>
-  $( document ).ready(function() {
-    $('.parallax').parallax();
-  });
 
-  function holi(){
-    $(".listStagLeft").velocity("transition.slideLeftIn", { stagger: 250 })
-    $(".listStagRight").velocity("transition.slideRightIn", { stagger: 250 })
-    //$(".listStag").css('display', 'block');
-    //Materialize.showStaggeredList("#staggered-test");
-    //Materialize.showStaggeredList("#staggered-testTwo");
-  }
-
-  var options = [
-    { selector:"#boton-sticker", offset: 600, callback: "myMove()"},
-    { selector:"#staggered-test", offset: 200, callback:"holi()"
-  }];
-  Materialize.scrollFire(options);
-  </script>
-
-  <!-- Movimiento del pinguino -->
-  <script>
-  $("#pinguino").hide();
-  function myMove() {
-    var $element1 = $("#pinguino").eq(0);
-
-    var mySequence = [
-      { e: $element1, p: { translateY: [ 30, -1000 ] },  o: { duration:  800 } },
-      { e: $element1, p: { translateY: -30, scaleX: 1.03, scaleY: 1.03  },  o: { duration:  400 } },
-      { e: $element1, p: { translateY: +20, scaleX: 1, scaleY: 1  },  o: { duration:  600 } },
-      { e: $element1, p: { translateY: -5, scaleX: 0.99, scaleY: 0.99 },  o: { duration:  600 } },
-      { e: $element1, p: { scaleX: 1, scaleY: 1, translateY: +5 },  o: { duration:  600 } }
-    ];
-    $("#pinguino").show();
-    $.Velocity.RunSequence(mySequence);
-
-  }
-  </script>
 
 </body>
 </html>

@@ -8,7 +8,6 @@
 }
 
 .nav-main .small-logo{
-
   font-size: 22px;
 }
 
@@ -26,14 +25,52 @@
 
 #pinguino {
   height: 220px;
-  display: block;
+  display: none;
   margin-left: auto;
   margin-right: auto;
+}
+
+#rowNav{
+  position:relative;
+  z-index:9999999999;
+}
+
+#header{
+  position:relative;
+  z-index:99999999;
+}
+
+.btn-git{
+  padding-top:0;
+  position:relative;
+  z-index:999999999;
+}
+
+#boton-sticker{
+  margin-top:-120px;
+}
+
+#parallax-uno{
+  margin-top:-120px;
+  margin-bottom:0;
+  padding-bottom:0;
+}
+
+#parallax-uno .section{
+  margin-top: 140px;
+  padding-bottom: 70px;
 }
 
 .listStagLeft, .listStagRight{
   height: auto;
   display: none;
+}
+
+#staggered-widget{
+   display: none;
+}
+#slider-widget{
+   display: none;
 }
 
 .line{
@@ -42,7 +79,7 @@
   width: 10px;
   background:black;
   height: 1000px;
-  margin-top: -900px;
+  margin-top: -930px;
   margin-bottom:-5px;
 }
 

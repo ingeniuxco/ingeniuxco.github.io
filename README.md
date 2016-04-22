@@ -1,3 +1,3 @@
 #Ingeniux
 
-http://ingeniux.github.io
+http://ingeniux.co

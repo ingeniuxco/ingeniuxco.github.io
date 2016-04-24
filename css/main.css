@@ -66,11 +66,16 @@
   display: none;
 }
 
-#staggered-widget{
-   display: none;
+#staggered-wt{
+  display: none;
+  overflow: hidden;
+  position: relative;
 }
-#slider-widget{
-   display: none;
+#slider-wt{
+  display: none;
+}
+#license-wt{
+  display: none;
 }
 
 .line{
@@ -84,5 +89,9 @@
 }
 
 .parallax-container {
-    height: auto;
-  }
+  height: auto;
+}
+
+.button-card{
+  margin-top: -60px;
+}

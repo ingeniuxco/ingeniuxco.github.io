@@ -70,19 +70,22 @@ function myMoveTwo(){
 }
 
 function myMoveTree(){
-  $('#staggered-widget').show();
-  Materialize.showStaggeredList("#staggered-widget");
+  //titulo widget
+  $('#staggered-wt').show();
+  $("#staggered-wt")
+  .velocity("fadeIn", { duration: 1500 });
 }
 
 function myMoveFour(){
-  $('#slider-widget').show();
-  Materialize.fadeInImage('#slider-widget');
+  $('#slider-wt').show();
+  Materialize.fadeInImage('#slider-wt');
+  $('#license-wt').velocity("fadeIn", { duration: 1500 });
 }
 
 var options = [
   {selector:"#boton-sticker", offset: 600, callback: "myMove()"},
   {selector:"#staggered-test", offset: 200, callback:"myMoveTwo()"},
-  {selector: '#section-widget', offset: 200, callback:"myMoveTree()"},
-  {selector: '#section-widget', offset: 400, callback:"myMoveFour()"}
+  {selector: '#section-wt', offset: 200, callback:"myMoveTree()"},
+  {selector: '#section-wt', offset: 300, callback:"myMoveFour()"}
 ];
 Materialize.scrollFire(options);

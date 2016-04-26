@@ -16,6 +16,8 @@ $(document).ready(function(){
   $('.slider').slider({full_width: false, height: 300});
 });
 
+Materialize.toast("<i class='fa fa-exclamation-triangle' aria-hidden='true'></i> Esta pagína esta en contrucción", 10000) 
+
 // nav-main
 
 var cbpAnimatedHeader = (function() {

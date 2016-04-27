@@ -30,20 +30,25 @@
   margin-right: auto;
 }
 
+/*esta primero*/
+
 #rowNav{
   position:relative;
-  z-index:9999999999;
+  z-index:9;
 }
+
+/*esta tercera */
 
 #header{
   position:relative;
-  z-index:99999999;
+  z-index:7;
 }
 
+/*esta segunda*/
 .btn-git{
   padding-top:0;
   position:relative;
-  z-index:999999999;
+  z-index:8;
 }
 
 #boton-sticker{

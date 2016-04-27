@@ -16,8 +16,9 @@ $(document).ready(function(){
   $('.slider').slider({full_width: false, height: 300});
 });
 
-Materialize.toast("<i class='fa fa-exclamation-triangle' aria-hidden='true'></i> Esta pagína esta en contrucción", 5000);
+Materialize.toast("<i class='fa fa-exclamation-triangle' aria-hidden='true'></i> Esta págína está en construcción", 10000)
 Materialize.toast("<a href='http://ingeniux.co/torneolol/'> Todo sobre el torneo de LOL</a>", 10000);
+
 
 // nav-main
 
